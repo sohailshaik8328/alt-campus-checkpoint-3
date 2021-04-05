@@ -55,7 +55,6 @@ table {
 	background-color: rgb(1,45,91);
     color: white;	
     padding-top: 15px;
-
 }
 .container{
 	max-width: 80%;
@@ -92,13 +91,26 @@ table {
 }
  .contact_btn{
 	background-color: rgb(253,101,107);
-    width: 100px;
-    text-align: center;
+    width: 150px;
+    /* text-align: center; */
     border-radius: 5px;
 	padding: 13px 10px;
     color: white;
-    font-size: 13px;
+    /* font-size: 13px; */
     margin-left: 20px;
+}
+.main_header_right .nav ul li .cont_btn_a,
+.background_data .buson_data .cont_btn_a,
+.business .cont_btn_a, .request_right .cont_btn_a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.our_services .cont_btn_a_new, .completed_left .cont_btn_a_new{
+	color: red;
+	text-decoration: none;
+	font-size:11px;
 }
 /* header css ends */
 
@@ -283,7 +295,7 @@ table {
     overflow-x: auto;
 }
 .completed_right img{
-	width: 45%;
+	width: 30%;
 	margin-left: 25px;
 }
 ::-webkit-scrollbar{
@@ -320,6 +332,12 @@ table {
 	margin-top: 20px;
     color: grey;
     font-size: 15px;
+}
+.clifford blockquote{
+	line-height: 1.5;
+	font-size: 18px;
+	color: rgba(0, 0, 0, 0.795);
+	margin-top: 20px;
 }
 /* clifford css ends */
 
@@ -399,7 +417,7 @@ footer{
 	background-color: rgb(246,249,254);
 }
 .footer_logo_section, .company, .services, .get_in_touch {
-	width: 25%;
+	/* width: 25%; */
 	line-height: 2;
 }
 .footer_logo_section .footer_para{
@@ -429,6 +447,10 @@ footer .copy_right{
 }
 .copy_right .heart_color{
 	color: rgb(255, 87, 58);
+}
+footer a{
+	text-decoration: none;
+	color: gray;
 }
 /* foooter css ends */
 
