@@ -105,9 +105,8 @@ table {
 /* background image css starts */
 .background{
 	background-image: url(../media/hero/h1_hero.jpg);
-	height: 80vh;
+	height: 100vh;
 	background-size: cover;
-	/* border: 1px solid white; */
 	margin-top: 10px;
 }
 .background_image_section .background_data{
@@ -169,7 +168,7 @@ table {
 }
 .what_we_do_section .border_red{
 	border: 3px solid red;
-	padding: 70px 50px;
+	padding: 80px 60px;
 	width: 20%;
 }
 .border_red h2, .compl_left h2, .request_call .heading{
@@ -284,7 +283,7 @@ table {
     overflow-x: auto;
 }
 .completed_right img{
-	width: 40%;
+	width: 45%;
 	margin-left: 25px;
 }
 ::-webkit-scrollbar{
