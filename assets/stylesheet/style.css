@@ -588,6 +588,10 @@ figcaption{
 	display: flex;
 	justify-content: center;
 }
+.cont_send_new{
+	text-decoration: none;
+	color: red;
+}
 /* contact css ends */
 
 /* about css starts */
