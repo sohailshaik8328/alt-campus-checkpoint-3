@@ -180,7 +180,7 @@ table {
 }
 .what_we_do_section .border_red{
 	border: 3px solid red;
-	padding: 80px 60px;
+	padding: 90px 60px;
 	width: 20%;
 }
 .border_red h2, .compl_left h2, .request_call .heading{
@@ -195,6 +195,9 @@ table {
 	width: 80%;
 	margin: auto;
 }
+.business .what_do_h2{
+	width: 150px;
+}
 /* what we do css ends */
 
 /* trust section css starts */
@@ -207,6 +210,7 @@ table {
 }
 .business .border_red_h2{
 	font-size: 30px;
+	width: 350px;
 }
 .trust .trust_para{
     margin-top: 20px;
@@ -321,6 +325,7 @@ table {
 	font-weight: lighter;
 }
 
+
 .clifford .clifford_image img{
 	width: 150px;
 }
@@ -356,6 +361,9 @@ table {
 }
 .business_new{
 	margin-top: 80px;
+}
+ .summer{
+	width: 250px;
 }
 /* our recent news css ends */
 
@@ -408,6 +416,10 @@ table {
 	padding: 20px 0px;
 	width: 150px;
 	font-size: 13px;
+}
+.request_left .heading_new{
+	width: 250px;
+	line-height: 1.5;
 }
 /* request css ends */
 
@@ -716,6 +728,7 @@ figcaption{
 	background-color: #FFFFFF;
 	justify-content: center;
 	margin-top: 20px;
+	text-decoration: none;
 }
 
 .category{
@@ -774,9 +787,10 @@ figcaption{
 	padding: 20px 25px;
 }
 .cloud_div{
-	flex-wrap: wrap;
-	justify-content: unset;
-	margin-top: 25px;
+	margin: 40px 0;
+}
+.cloud_data{
+	display: inline-block;
 }
 .tag_section .cloud_data{
 	width: 70px;
